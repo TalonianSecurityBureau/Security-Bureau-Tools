@@ -21,7 +21,7 @@ function searchUpdates() {
   const upOptions = {
     method: 'GET',
     headers: {
-     'User-Agent': `Eagle's Eye - update times, used by ${userAgent}`,
+     'User-Agent': `the watchtower - update times, used by ${userAgent}`,
     },
   };
 
@@ -55,7 +55,7 @@ function getRegions() {
   const getOptions = {
     method: 'GET',
     headers: {
-     'User-Agent': `Eagle's Eye - cute fash regions, used by ${userAgent}`,
+     'User-Agent': `the watchtower - cute fascist regions, used by ${userAgent}`,
     },
   };
 
@@ -119,7 +119,7 @@ function getRegionInfo() {
   const submOptions = {
     method: 'GET',
     headers: {
-     'User-Agent': `Eagle's Eye - submissive and raidable, used by ${userAgent}`,
+     'User-Agent': `the watchtower - submissive and raidable, used by ${userAgent}`,
     },
   };
 
@@ -199,7 +199,7 @@ function startAutologin() { // Renamed the function to startAutologin
           method: 'GET',
           headers: {
             'X-Password': password,
-            'User-Agent': `Eagle's Eye - autologin, used by ${userAgent}`,
+            'User-Agent': `the watchtower - autologin, used by ${userAgent}`,
           },
         };
 
